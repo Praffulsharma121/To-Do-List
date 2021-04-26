@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup, li
+{
+	display: block;
+}
+
+body
+{
+	text-align: center;
+	background: #03203C;
+	font: 30px solid block;
+}
+
+
+#input
+{
+	border: 1px solid #CAD5E2;
+	border-radius: 30px;
+	padding: 5px;
+	margin: 20px;
+	font: 20px solid black;
+	background: #207398;
+	flex: 0;
+}
+
+
+
+#sec
+{
+	transition-property: none;
+	float: left;
+	margin: 120px 50px;
+}
+
+#para
+{
+	font: 30px solid;
+	float: left;
+	margin-bottom: 20px;
+}
+
+#list
+{
+	background: #FF6666;
+	box-shadow: rgba(10,10,10,.9) 10px 10px 10px;
+	width: 900px;
+	margin: 50px;
+	padding: 20px;
+	text-align: left;
+	border: 1px solid #758283;
+	border-radius: 30px;
+	font: 30px solid black;
+	color: white;
+}
+
+#del
+{
+	float: right;
+	border: 1px solid green;
+	border-radius: 40px;
+}
+
+#add
+{
+	background: pink;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 20px;
+
+}
